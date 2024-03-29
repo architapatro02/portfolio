@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="full-screen">
+        <div class="container">
+            <div class="content">
+                <h1>Welcome to My Portfolio</h1>
+                <p class="subtitle">Passionate about Web Development</p>
+                <div class="intro">
+                    <h2>Hi, I'm Archita Patro</h2>
+                    <p class="about">A passionate web developer dedicated to creating engaging and user-friendly
+                        websites. I love turning ideas into reality and exploring the endless possibilities of web
+                        technologies.</p>
+                </div>
+                <!-- <a href="#portfolio" class="btn">View Portfolio</a> -->
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- <section id="home" class="full-screen">
+        <div class="container">
+            <div class="content">
+                <h1>Welcome to My Portfolio</h1>
+                <div class="hello">Hi, I'm</div>
+                <div class="name">Archita Patro</div>
+                <div class="about">A passionate student pursuing IT.</div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="about" class="full-screen">
+        <div class="container">
+            <div class="content">
+                <h2>About Me</h2>
+                <p>I am a student currently pursuing IT. I am enthusiastic about web development and have expertise in
+                    HTML, CSS, and JavaScript. In my free time, I enjoy exploring new technologies and working on
+                    personal projects.</p>
+                <div class="tab">
+                    <button class="tablinks active" onclick="openTab(event, 'skills')">Skills</button>
+                    <button class="tablinks" onclick="openTab(event, 'education')">Education</button>
+                </div>
+                <div id="skills" class="tabcontent active">
+                    <h3>Skills</h3>
+                    <p>Technical skills: HTML, CSS, JavaScript, DSA, DBMS, OS</p>
+                    <p>COURSES: DSA, OOPS, DBMS, OS </p>
+                    <p>LANGUAGES: C, C++, HTML, CSS, JavaScript, SQL, Java</p>
+                    <p>TOOLS: VS Code, Android Studio, MySql</p>
+                    <p>TECHNOLOGIES: GitHub</p>
+                    <p>SOFT SKILLS: TeamWork, Time Management,Adaptability, Adaptablity</p>
+                </div>
+                <div id="education" class="tabcontent">
+                    <h3>Education</h3>
+                    <div class="education-section">
+                        <h4>High School</h4>
+                        <ul>
+                            <li><strong>Year:</strong> 2014 - 2019</li>
+                            <li><strong>Institute:</strong> St. Xavier's High School</li>
+                            <li><strong>Percentage:</strong> 90%</li>
+                        </ul>
+                    </div>
+                    <div class="education-section">
+                        <h4>Senior Secondary School</h4>
+                        <ul>
+                            <li><strong>Year:</strong> 2019 - 2021</li>
+                            <li><strong>Institute:</strong> Takshashila Resedential School</li>
+                            <li><strong>Percentage:</strong> 86%</li>
+                        </ul>
+                    </div>
+                    <div class="education-section">
+                        <h4>Undergraduation</h4>
+                        <ul>
+                            <li><strong>Year:</strong> 2021 - Present</li>
+                            <li><strong>Institute:</strong> Banasthali Vidyapeeth</li>
+                            <li><strong>CGPA:</strong> 9.20</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="portfolio" class="full-screen">
+        <div class="container">
+            <div class="content">
+                <h2>Portfolio</h2>
+                <div class="project">
+                    <h3>Project 1:Hostel Bites</h3>
+                    <p>Description: "HostelBites" is a dynamic application catering to the needs of both
+                        students and wardens in hostel management. Students can conveniently access daily menus, provide
+                        feedback, submit special notices to wardens, receive notifications, and even pre-register
+                        attendance to help optimize meal planning. On the other hand, wardens can efficiently update
+                        menus, view feedback, communicate with students through notifications, and monitor attendance,
+                        ensuring smooth hostel operations.</p>
+                    <a href="https://github.com/architapatro02/hostelbites">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project 2: IWT Lab Works</h3>
+                    <p>Description: These are the exercises that we performed in our IWT lab.</p>
+                    <a href="#">View exercises</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="full-screen">
+        <div class="container">
+            <div class="content">
+                <h2>Contact Me</h2>
+                <p>Feel free to get in touch with me. I'm always open to discussing new projects, creative ideas, or
+                    opportunities to collaborate.</p>
+                <form id="contact-form">
+                    <div class="input-group">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+                <div class="social-links">
+                    <p>We can also get in touch:</p>
+                    <a href="https://www.instagram.com/yourusername" target="_blank"><i
+                            class="fab fa-instagram fa-lg"></i></a>
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i
+                            class="fab fa-linkedin fa-lg"></i></a>
+                    <a href="mailto:youremail@example.com"><i class="fas fa-envelope fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
